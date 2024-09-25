@@ -10,7 +10,8 @@ class Job extends Model
 {
     use HasFactory;
 
-    protected $table = "job_listings";
+    protected $table = 'job_listings';
+
     protected $guarded = [];
 
     public function employer()
